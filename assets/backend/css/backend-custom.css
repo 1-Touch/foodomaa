@@ -1,0 +1,75 @@
+.hidden {
+    display: none !important;
+}
+.pointer-none {
+    pointer-events: none;
+}
+.dashboard-display {
+    border-radius: 4px;
+    background-color: #fff;
+    box-shadow: 0 1px 6px 1px rgba(0, 0, 0, 0.05)
+}
+.dashboard-display-icon {
+    font-size: 2rem;
+    color: rgba(0, 0, 0, 0.15);
+}
+.dashboard-display-number {
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+.dashboard-main-col {
+    border-radius: 4px;
+    box-shadow: 0 1px 6px 1px rgba(0, 0, 0, 0.05);
+    background-color: #fff;
+}
+.translation-section-btn {
+    margin-bottom: 2rem;
+    background-color: rgba(245, 245, 245, 0.70);
+    color: #37474F;
+    font-size: 1.2rem;
+    border: 3px dotted #8360C3;
+    padding: 0 25px;
+}
+.alert-update {
+    color: #FF9800;
+    background-color: #ffffff;
+    border-color: #d8d8d8;
+    border-radius: 0.275rem;
+    box-shadow: 0 1px 6px 1px rgba(0, 0, 0, 0.05);
+}
+@media (min-width: 320px) and (max-width: 767px) {
+    .navbar-collapse.collapse {
+        z-index: 9999999;
+        background-color: #fff;
+        box-shadow: 0 5px 20px 0 #ccc;
+    }
+}
+.gllpMap {
+    width: 100%;
+    height: 350px;
+}
+@media only screen and (max-width: 600px) {
+    .gllpMap {
+        width: 100%;
+        height: 200px;
+    }
+    .location-search-block {
+        display: none !important;
+    }
+}
+.gllpSearchField {
+    border-radius: 20px 0 0 20px;
+    box-shadow: 0 2px 5px 2px #ccc;
+}
+.gllpSearchButton {
+    border-radius: 0px 20px 20px 0px;
+    box-shadow: 0 2px 5px 2px #ccc;
+}
+.gm-fullscreen-control {
+    display: none;
+}
+.location-search-block {
+    position: relative;
+    top: -26rem;
+    z-index: 999;
+}
